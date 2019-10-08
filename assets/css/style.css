@@ -1,0 +1,87 @@
+.navbar{
+    padding:20;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 20px;
+    text-align: center;
+
+}
+#Top{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../imgs/beach.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#info h1{
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+#info h3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#underTop{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#searchCard{
+    border: 1px solid white;
+    height: 100px;
+}
+.card{
+    background-color: silver;
+    padding: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: -10px 10px rgba(1, 1, 1, 0.5);
+}
+.cardSearch{
+    margin-top: 40px;
+}
+.searchBtn{
+    margin-top: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: -5px 5px rgba(1, 1, 1, 0.3);
+}
+
+#map {
+    height: 100%;
+    border: 10px solid black;
+}
+#about{
+    text-align: center;
+}
+#copy{
+    text-align: center;
+    background-color: silver;
+    margin-top: 10px;
+}
+.radioContainer{
+    margin-top: 10px;
+}
+#results{
+    border: 10px double black;
+    margin: 10px;
+}
+.hover:hover{
+    cursor: pointer;
+}
+.hover{
+    border-bottom: 1px solid black
+}
