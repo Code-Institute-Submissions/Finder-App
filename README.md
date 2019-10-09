@@ -33,14 +33,14 @@ three buttons below the search area pointing out the three searching categories.
 
 ## Technologies Used
 
-HTML 5
-CSS 3
-JavaScript
-Bootstrap (3.4.1)
-Font Awesome (v4.7.0)
-jQuery (3.4.1)
-Google Maps API
-Google Fonts
+1.HTML 5
+2.CSS 3
+3.JavaScript
+4.Bootstrap (3.4.1)
+5.Font Awesome (v4.7.0)
+6.jQuery (3.4.1)
+7.Google Maps API
+8.Google Fonts
 
 ## 
 
