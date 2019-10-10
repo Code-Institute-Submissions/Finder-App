@@ -44,5 +44,13 @@ three buttons below the search area pointing out the three searching categories.
 * Google Maps API
 * Google Fonts
 
-## 
+## Testing
+
+## Deployment
+
+## Credits
+
+## Acknowledgements
+
+
 
