@@ -1,4 +1,39 @@
-var map, places, infoWindow, typeOfPlace;
+var selected;
+$(document).ready(function () {
+    $(".radioOpt").change(function () {
+        selected = $(this).val()
+    });
+    $('.menu-toggle').click(function () {
+        $('.menu-toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+    })
+});
+function onLoad(){
+    $('.radiobutton').each(function(){
+        $(this).prop('checked', false);
+    });
+    $('#defaultCheck').prop('checked',true)
+    $('.has-search').each(function(){
+        $(this).val('');
+    });
+    $('#country').val('all');
+}
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    var mybutton = document.getElementById('myBtn')
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+var map, places, infoWindow;
 var markers = [];
 var autocomplete;
 var countryRestrict = { 'country': 'ie' };
@@ -63,9 +98,6 @@ var countries = {
     }
 };
 
-function placeSearch(place) {
-    typeOfPlace = place;
-}
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: countries['ie'].zoom,
@@ -107,14 +139,17 @@ function onPlaceChanged() {
 }
 
 function search() {
-    if(typeOfPlace){
+    if(selected){
     var search = {
         bounds: map.getBounds(),
-        types: [typeOfPlace]
+        types: [selected]
     };
 }
 else{
-    alert('Please select one radio button')
+    var search = {
+        bounds: map.getBounds(),
+        types: ['Accommodation']
+    };
 }
 
 
@@ -255,4 +290,7 @@ function buildIWContent(place) {
     } else {
         document.getElementById('iw-website-row').style.display = 'none';
     }
+}
+function pageReset(){
+    document.location.reload()
 }
