@@ -1,3 +1,5 @@
+
+<html>
 <head>
     <title>Finder App</title>
     <meta charset="UTF-8">
@@ -93,7 +95,7 @@
                                             <div class="col-sm"></div>
                                             <div class="col-sm">
                                                 
-                                            <h3 class="btn btn-danger searchBtn" onclick="pageReset()">Reset</h3>
+                                            <h3 class="btn btn-danger searchBtn" onclick="pageReset()">Refresh</h3>
                                             </div>
                                             <div class="col-sm"></div>
                                         </div>
@@ -104,42 +106,52 @@
                         </div>
                     </div>
                 </div>
-                <div id="listing">
-                    <table id="resultsTable" class="container results-container">
-                        <tbody id="results"><a href="#map"></a></tbody>
+                
+                
+                <div class="container">
+    <div class="row">
+        
+        <div class="col-md-8">
+            <div id="map"></div>
+        
+    </div>
+        
+        <div class="col-md-4">
+            <div id="listing">
+                <table id="resultsTable" class="container results-container">
+                    <tbody id="results"><a href="#map"></a></tbody>
+                </table>
+            </div>
+            <div style="display: none">
+                <div id="info-content">
+                    <table style="margin: auto;">
+                        <tr id="iw-url-row" class="iw_table_row">
+                            <td id="iw-icon" class="iw_table_icon"></td>
+                            <td id="iw-url"></td>
+                        </tr>
+                        <tr id="iw-address-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Address:</td>
+                            <td id="iw-address"></td>
+                        </tr>
+                        <tr id="iw-phone-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Telephone:</td>
+                            <td id="iw-phone"></td>
+                        </tr>
+                        <tr id="iw-rating-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Rating:</td>
+                            <td id="iw-rating"></td>
+                        </tr>
+                        <tr id="iw-website-row" class="iw_table_row">
+                            <td class="iw_attribute_name">Website:</td>
+                            <td id="iw-website"></td>
+                        </tr>
                     </table>
-                </div>
-                <div>
-                    <div style="display: none">
-                        <div id="info-content">
-                            <table style="margin: auto;">
-                                <tr id="iw-url-row" class="iw_table_row">
-                                    <td id="iw-icon" class="iw_table_icon"></td>
-                                    <td id="iw-url"></td>
-                                </tr>
-                                <tr id="iw-address-row" class="iw_table_row">
-                                    <td class="iw_attribute_name">Address:</td>
-                                    <td id="iw-address"></td>
-                                </tr>
-                                <tr id="iw-phone-row" class="iw_table_row">
-                                    <td class="iw_attribute_name">Telephone:</td>
-                                    <td id="iw-phone"></td>
-                                </tr>
-                                <tr id="iw-rating-row" class="iw_table_row">
-                                    <td class="iw_attribute_name">Rating:</td>
-                                    <td id="iw-rating"></td>
-                                </tr>
-                                <tr id="iw-website-row" class="iw_table_row">
-                                    <td class="iw_attribute_name">Website:</td>
-                                    <td id="iw-website"></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <div id="map"></div>
+        
+</div>
+    
         <div class="container" id="about">
             <div class="row">
 
