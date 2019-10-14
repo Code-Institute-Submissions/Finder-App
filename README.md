@@ -28,19 +28,29 @@ search card which contains two fields, In first field user can put the country n
 there is an option to select ALL countries,In the second field user need to put the desired city name where he want to travell,
 three buttons below the search area pointing out the three searching categories.
 
+<img src="assets/imgs/finder1.jpg">
+
 ## Demo
 
 
 ## Technologies Used
 
-1.HTML 5
-2.CSS 3
-3.JavaScript
-4.Bootstrap (3.4.1)
-5.Font Awesome (v4.7.0)
-6.jQuery (3.4.1)
-7.Google Maps API
-8.Google Fonts
+* HTML 5 <rb>
+* CSS 3
+* JavaScript
+* Bootstrap (3.4.1)
+* Font Awesome (v4.7.0)
+* jQuery (3.4.1)
+* Google Maps API
+* Google Fonts
 
-## 
+## Testing
+
+## Deployment
+
+## Credits
+
+## Acknowledgements
+
+
 
