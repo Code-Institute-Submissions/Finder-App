@@ -5,8 +5,7 @@ body{
     font-family: 'poppins' , sans-serif;
     background-attachment: fixed;
     
-}
-header{
+}header{
     position:relative;
     max-width: 1200px;
     margin: 20px auto;
@@ -105,7 +104,20 @@ nav.active ul li a{
     margin: 0;
 }
 }
-
+.navbar{
+    padding:20;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 20px;
+    text-align: center;
+}
 #Top{
     height: 100vh;
     width: 100%;
@@ -123,6 +135,7 @@ nav.active ul li a{
     text-align: center;
     margin-top: 20px;
 }
+
 #underTop{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
