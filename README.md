@@ -22,13 +22,13 @@ easy when you are not sure the spelling of a city.This app coveres three search 
                         
 ## UX
 
-The UX of that site consist of navbar at the top with logo on the lift side and two other fields MAP and ABOUT next to the
-logo on the left side,As that web site is only one page so i created different section on the same page,fist section contains 
+The UX of that site consist of navbar at the top with logo on the lift side and three other fields HOME MAP and ABOUT to the
+right side of the nav bar,As that web site is only one page so i created different section on the same page,fist section contains 
 search card which contains two fields, In first field user can put the country name,I mentioned some selected country names but
-there is an option to select ALL countries,In the second field user need to put the desired city name where he want to travell,
+there is an option to select ALL countries,In the second field user need to put the desired city name where they want to travell,
 three buttons below the search area pointing out the three searching categories.
 
-<img src="assets/imgs/finder1.jpg">
+<img src="assets/imgs/navbar.jpg">
 
 ## Demo
 
