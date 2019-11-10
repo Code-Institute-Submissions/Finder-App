@@ -37,8 +37,8 @@ three buttons below the search area pointing out the three searching categories.
 
 ## Technologies Used
 
-* HTML 5 <rb>
-* CSS 3
+* HTML 5 This project uses HTML 5, CSS 3, and JavaScript programming languages.
+* CSS 3 ** The project uses JQuery to simplify DOM manipulation.
 * JavaScript
 * Bootstrap (3.4.1)
 * Font Awesome (v4.7.0)
