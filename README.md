@@ -22,13 +22,15 @@ easy when you are not sure the spelling of a city.This app coveres three search 
                         
 ## UX
 
-The UX of that site consist of navbar at the top with logo on the lift side and three other fields HOME MAP and ABOUT to the
+I tried to make the UX of that site as simple as possible,so that the user can use it without any trouble,The UX of that site consist of navbar at the top with logo on the lift side and three other fields HOME MAP and ABOUT to the
 right side of the nav bar,As that web site is only one page so i created different section on the same page,fist section contains 
 search card which contains two fields, In first field user can put the country name,I mentioned some selected country names but
 there is an option to select ALL countries,In the second field user need to put the desired city name where they want to travell,
 three buttons below the search area pointing out the three searching categories.
 
 <img src="assets/imgs/navbar.jpg">
+
+
 
 ## Demo
 
@@ -45,6 +47,7 @@ three buttons below the search area pointing out the three searching categories.
 * Google Fonts
 
 ## Testing
+I have tested that site through developer tools and checked on all devices provided on the google chrome dev tools for it's responsiveness.
 
 ## Deployment
 
