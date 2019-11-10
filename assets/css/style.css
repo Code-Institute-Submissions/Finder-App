@@ -1,143 +1,156 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-body{
+
+body
+{
     margin: 0;
     padding: 0;
     font-family: 'poppins' , sans-serif;
+    background: url(blueSky.jpg);
     background-attachment: fixed;
-    
-}header{
+}
+
+header
+{
     position:relative;
     max-width: 1200px;
     margin: 20px auto;
     padding: 10px;
-    background: #fff;
+    background: silver;
     box-sizing: border-box;
     border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,.2);
-   
+    box-shadow: -10px 10px rgba(1, 1, 1, 0.5);
 }
 
-.logo{
+.logo
+{
     color: blue;
     height: 60px;
     font-size: 36px;
     line-height: 60px;
+    padding: 0 20px;
+    background: silver;
     text-align: center;
     box-sizing: border-box;
     float: left;
     font-weight: 700;
     text-decoration: none;
 }
-nav {
+
+nav 
+{
     float: right;
     
 }
-.clearfix{
+
+.clearfix
+{
     clear: both;
 }
-nav ul{
+
+nav ul
+{
     margin: 0;
     padding: 0;
     display: flex;
 }
-nav ul li{
+
+nav ul li
+{
     list-style: none;
 }
-nav ul li a{
+
+nav ul li a
+{
     display: block;
     margin: 10px 0px;
     padding: 10px 20px;
     text-decoration: none;
     color: blue;
 }
+
 nav ul li a.active,
-nav ul li a:hover{
+nav ul li a:hover
+{
     background: blue;
     color: #fff;
     transition: 0.5;
-    text-decoration: none;
 }
 
-@media (max-width: 1200px){
-    header{
+@media (max-width: 1200px)
+{
+    header
+    {
        margin:20px;
     }
 }
 
-@media (max-width: 768px){
-    .menu-toggle    {
+@media (max-width: 768px)
+{
+    .menu-toggle
+    {
        display: block;
         width: 40px;
         height: 40px;
         margin: 10px;
         float: right;
-        background: #fff;
+        background: silver;
         cursor: pointer;
         text-align: center;
         font-size: 30px;
         color: blue;
     }
-.menu-toggle:before{
+
+.menu-toggle:before
+{
     content: '\f0c9';
     font-family: fontAwesome;
     line-height: 40px;
 }
-.menu-toggle.active:before{
+
+.menu-toggle.active:before
+{
     content: '\f00d';
     font-family: fontAwesome;
     line-height: 40px;
 }
-nav{
+
+nav
+{
     display: none;
 }
-nav.active{
+
+nav.active
+{
     display: block;
     width: 100%;    
 }
-nav.active ul{
+
+nav.active ul
+{
     display: block;
 }
 
-nav.active ul li a{
+nav.active ul li a
+{
     margin: 0;
 }
 }
-.navbar{
-    padding:20;
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-.navbar-brand{
-    font-size: 30px;
-}
-.nav-link{
-    font-size: 20px;
-    text-align: center;
-}
-#Top{
-    height: 100vh;
-    width: 100%;
-    background-image: url('../imgs/BgImg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
+
 #info h1{
     padding-top: 100px;
     color: white;
     text-align: center;
 }
-#info h3{
-    color: white;
-    text-align: center;
-    margin-top: 20px;
+
+.info {
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: black;
+    
 }
 
-#underTop{
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.3);
-}
 #searchCard{
     border: 1px solid white;
     height: 100px;
@@ -152,34 +165,65 @@ nav.active ul li a{
     box-shadow: -10px 10px rgba(1, 1, 1, 0.5);
 }
 .cardSearch{
-    margin-top: 40px !important;
+    margin-top: 80px !important;
 }
-.searchBtn{
-    text-align: center;
-    margin-top: 10px;
+.btn-primary{
+    vertical-align: center;
+    margin-top: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: -5px 5px rgba(1, 1, 1, 0.5);
+    background: blue;
 }
+
 #map {
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 100%;
     border: 10px solid black;
 }
+
 #about{
+    margin-top: 50px;
     text-align: center;
+    
+    color: white;
+    width: auto;
 }
+
 #copy{
     text-align: center;
-    background-color: silver;
+    background-color: black;
     margin-top: 10px;
+    color: white;
 }
+
 #results{
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 10px double black;
     margin: 10px;
 }
+
+#resultsTable {
+    border-collapse: collapse;
+    width: 100%;
+
+}
   #listing {
-    margin: 50px;;
-    height: 290px;
+    margin-top: 20px;
+    height: 100%;
+    width: auto;
     overflow: auto;
     cursor: pointer;
+    background-color: silver;
+    color: #1a1a1a;
+
   }
+
   #myBtn {
     display: none;
     position: fixed;
@@ -195,9 +239,11 @@ nav.active ul li a{
     padding: 15px;
     border-radius: 4px;
   }
+
   #myBtn:hover {
     background-color: blue;
   }
+
   .radiobutton {
     display: block;
     position: relative;
@@ -217,10 +263,12 @@ nav.active ul li a{
     opacity: 0;
     cursor: pointer;
   }
+
   .radiobutton em{
       position: relative;
       bottom: 6px;
   }
+
   .checkmark {
     position: absolute;
     top: 0;
@@ -236,7 +284,7 @@ nav.active ul li a{
   }
   
   .radiobutton input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: blue;
   }
   
   .checkmark:after {

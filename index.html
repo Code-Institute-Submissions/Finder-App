@@ -1,5 +1,5 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Finder App</title>
     <meta charset="UTF-8">
@@ -21,27 +21,31 @@
     <script src="assets/js/script.js"></script>
 </head>
 
-<body onload="onLoad()">
-    <a href="#" class="logo"> Finder App </a>
-    <div class="menu-toggle"></div>
-    <nav>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#map">Map</a></li>
-        </ul>
-    </nav>
-    <div class="clearfix"></div>
-    <div id="top">
-        <div id="underTop">
+ <body>
+        <header>
+            <a href="#" class="logo"> Finder App </a>
+            <div class="menu-toggle"></div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#map">Map</a></li>
+                </ul> 
+            </nav>
+            <div class="clearfix"></div>
+        </header> 
             <div id="info">
-                <h1>Select country and city to continue:</h1>
+                <h1>Travell Across The Globe</h1>
             </div>
             <div class="container cardSearch">
+
                 <div class="row">
+
                     <div class="col-sm">
+
                         <div class="card" style="width: 100%;">
                             <div class="card-body">
+                                <h2 class="info text-center">Select Country & City to Continue</h2>
                                 <select id="country" class="form-control select-input">
                                     <option selected value="all">All</option>
                                     <option value="au" id="aus">Australia</option>
@@ -61,8 +65,11 @@
                                 </select>
                                 <br>
                                 <div class="container radioContainer">
+
                                     <div class="row">
+
                                         <div class="col-sm">
+
                                             <label class="radiobutton"><strong><em>Accommodation</em></strong>
                                                 <input type="radio" class="radioOpt" id="defaultCheck" checked="checked" name="radio"
                                                     value="hotel">
@@ -71,14 +78,14 @@
                                         </div>
                                         <div class="col-sm">
                                             <label class="radiobutton"><strong><em>Tourist Attractions</em></strong>
-                                                <input type="radio" class="radioOpt" id="defaultCheck" checked="checked" name="radio"
+                                                <input type="radio" class="radioOpt"  checked="checked" name="radio"
                                                     value="museum">
                                                 <span class="checkmark"></span>
                                             </label>
                                         </div>
                                         <div class="col-sm">
                                             <label class="radiobutton"><strong><em>Bars & Restaurant</em></strong>
-                                                <input type="radio" class="radioOpt" id="defaultCheck" checked="checked" name="radio"
+                                                <input type="radio" class="radioOpt"  checked="checked" name="radio"
                                                     value="bar">
                                                 <span class="checkmark"></span>
                                             </label>
@@ -93,8 +100,8 @@
                                     <div class="col-sm">
                                         <div class="container">
                                             <div class="col-sm"></div>
-                                            <div class="col-sm">
-                                                <h3 class="btn btn-danger" onclick="pageReset()">Reset</h3>
+                                            <div class="col-sm text-center">
+                                                <h3 class="btn btn-primary" onclick="pageReset()">Refresh</h3>
                                             </div>
                                             <div class="col-sm"></div>
                                         </div>
@@ -105,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
                 
                     <div style="display: none">
                         <div id="info-content">
@@ -134,16 +141,17 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
         
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-7">
+                <div class="col-sm-8">
                     <div id="map" style="min-height:400px"></div>
                 </div>
-                <div class="col-sm-5" id="listing">
+                <div class="col-sm-4" id="listing">
                     <table id="resultsTable" class="container results-container">
+                        <h2 class="text-center"> Results </h2>
                         <tbody id="results"><a href="#map"></a></tbody>
                     </table>
                 </div>
@@ -151,7 +159,6 @@
         </div>
         <div class="container" id="about">
             <div class="row">
-
                 <div class="col-sm">
                     <h1>About Finder App</h1>
                     <p>Finder App is a simple app created for those who loves travelling and would like to search
@@ -162,18 +169,22 @@
                         search areas
                         (1) Accomodation
                         (2) Bars & Restaurant
-                        (3) Tourist Attractions .</p>
+                        (3) Tourist Attractions.
+                    </p>
+                            
                 </div>
             </div>
         </div>
+            <div id="copy">
+                &copy 2019 by Finder App LTD,All Rights Reserved.
+            </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
-        <div id="copy">
-            &copy by Muhammad Waseem Khan
-        </div>
+        
         <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPq0xTMwbd1UQ2BgUqJU5verK_FCUm47A&libraries=places&callback=initMap"
             async defer></script>
-
-</body>
-
+         <script
+                src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+         </script>
+    </body>
 </html>
