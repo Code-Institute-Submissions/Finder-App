@@ -5,7 +5,7 @@ body
     margin: 0;
     padding: 0;
     font-family: 'poppins' , sans-serif;
-    background: url(blueSky.jpg);
+    background: url(../imgs/blueSky.jpg);
     background-attachment: fixed;
 }
 

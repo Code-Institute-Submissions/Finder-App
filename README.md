@@ -28,7 +28,8 @@ search card which contains two fields, In first field user can put the country n
 there is an option to select ALL countries,In the second field user need to put the desired city name where he want to travell,
 three buttons below the search area pointing out the three searching categories.
 
-<img src="assets/imgs/finder1.jpg">
+<img src="../imgs/navbar.jpg">
+
 
 ## Demo
 
@@ -46,7 +47,11 @@ three buttons below the search area pointing out the three searching categories.
 
 ## Testing
 
+Tested project on different devices through google devtools.
+
 ## Deployment
+
+The site was built using Cloud's IDE, added, commited and pushed to GitHub using the terminal. A live version of the site is hosted on GitHub pages.
 
 ## Credits
 
