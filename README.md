@@ -22,13 +22,18 @@ easy when you are not sure the spelling of a city.This app coveres three search 
                         
 ## UX
 
-The UX of that site consist of navbar at the top with logo on the lift side and two other fields MAP and ABOUT next to the
-logo on the left side,As that web site is only one page so i created different section on the same page,fist section contains 
+I tried to make the UX of that site as simple as possible,so that the user can use it without any trouble,The UX of that site consist of navbar at the top with logo on the lift side and three other fields HOME MAP and ABOUT to the
+right side of the nav bar,As that web site is only one page so i created different section on the same page,fist section contains 
 search card which contains two fields, In first field user can put the country name,I mentioned some selected country names but
-there is an option to select ALL countries,In the second field user need to put the desired city name where he want to travell,
+there is an option to select ALL countries,In the second field user need to put the desired city name where they want to travell,
 three buttons below the search area pointing out the three searching categories.
 
+<<<<<<< HEAD
 <img src="../imgs/navbar.jpg">
+=======
+<img src="(../imgs/navbar.jpg)">
+
+>>>>>>> cf4b545067d14c0bb8e8cc7c4f004e2f8fda3e15
 
 
 ## Demo
@@ -36,8 +41,8 @@ three buttons below the search area pointing out the three searching categories.
 
 ## Technologies Used
 
-* HTML 5 <rb>
-* CSS 3
+* HTML 5 This project uses HTML 5, CSS 3, and JavaScript programming languages.
+* CSS 3 ** The project uses JQuery to simplify DOM manipulation.
 * JavaScript
 * Bootstrap (3.4.1)
 * Font Awesome (v4.7.0)
@@ -46,6 +51,7 @@ three buttons below the search area pointing out the three searching categories.
 * Google Fonts
 
 ## Testing
+I have tested that site through developer tools and checked on all devices provided on the google chrome dev tools for it's responsiveness.
 
 Tested project on different devices through google devtools.
 
