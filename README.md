@@ -30,10 +30,10 @@ three buttons below the search area pointing out the three searching categories.
 
 <<<<<<< HEAD
 <img src="../imgs/navbar.jpg">
-=======
+
 <img src="(../imgs/navbar.jpg)">
 
->>>>>>> cf4b545067d14c0bb8e8cc7c4f004e2f8fda3e15
+
 
 
 ## Demo

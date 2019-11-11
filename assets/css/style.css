@@ -182,8 +182,8 @@ nav.active ul li a
 #map {
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 100%;
     border: 10px solid black;
+    height: 100%;
 }
 
 #about{
@@ -202,15 +202,20 @@ nav.active ul li a
 }
 
 #results{
-    margin-top: 20px;
+   
     margin-bottom: 20px;
     border: 10px double black;
-    margin: 10px;
+   
 }
 
 #resultsTable {
     border-collapse: collapse;
     width: 100%;
+
+}
+
+.resultslist {
+    min-height: 370px;
 
 }
   #listing {
@@ -221,6 +226,7 @@ nav.active ul li a
     cursor: pointer;
     background-color: silver;
     color: #1a1a1a;
+    border: 10px solid black;
 
   }
 
