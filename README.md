@@ -30,7 +30,13 @@ three buttons below the search area pointing out the three searching categories.
 
 ## NavBar
 
-![Nave Bar](assets/imgs/navbar.jpg)
+![Navebar](assets/imgs/navbar.jpg)
+
+## Search Bar
+
+![SearchBar](assets/imgs/searchBar.jpg)
+
+
 
 
 
