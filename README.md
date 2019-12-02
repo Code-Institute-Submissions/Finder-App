@@ -31,7 +31,7 @@ three buttons below the search area pointing out the three searching categories.
 
 <img src="navbar.jpg">
 
-<img src="(imgs/navbar.jpg)">
+<img src="(assets/imgs/navbar.jpg)">
 
 
 
