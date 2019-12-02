@@ -40,14 +40,6 @@ three buttons below the search area pointing out the three searching categories.
 
 ![SearchBar](assets/imgs/map&results1.jpg)
 
-
-
-
-
-
-## Demo
-
-
 ## Technologies Used
 
 * HTML 5 This project uses HTML 5, CSS 3, and JavaScript programming languages.
@@ -61,8 +53,6 @@ three buttons below the search area pointing out the three searching categories.
 
 ## Testing
 I have tested that site through developer tools and checked on all devices provided on the google chrome dev tools for it's responsiveness.
-
-Tested project on different devices through google devtools.
 
 ## Deployment
 
