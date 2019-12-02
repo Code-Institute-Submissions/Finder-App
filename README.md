@@ -28,7 +28,7 @@ search card which contains two fields, In first field user can put the country n
 there is an option to select ALL countries,In the second field user need to put the desired city name where they want to travell,
 three buttons below the search area pointing out the three searching categories.
 
-<<<<<<< HEAD
+
 <img src="../imgs/navbar.jpg">
 
 <img src="(../imgs/navbar.jpg)">

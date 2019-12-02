@@ -179,9 +179,23 @@ nav.active ul li a
     background: blue;
 }
 
-#map {
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+
+#mapContainer {
+    min-height: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#map {
+    
     border: 10px solid black;
     height: 100%;
 }
@@ -202,23 +216,18 @@ nav.active ul li a
 }
 
 #results{
-   
     margin-bottom: 20px;
     border: 10px double black;
-   
 }
 
 #resultsTable {
+    margin-top: 10px;
     border-collapse: collapse;
     width: 100%;
 
 }
 
-.resultslist {
-    min-height: 370px;
-
-}
-  #listing {
+#listing {
     margin-top: 20px;
     height: 100%;
     width: auto;
