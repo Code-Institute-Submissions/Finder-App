@@ -29,7 +29,7 @@ there is an option to select ALL countries,In the second field user need to put 
 three buttons below the search area pointing out the three searching categories.
 
 
-<img src="imgs/navbar.jpg">
+<img src="navbar.jpg">
 
 <img src="(imgs/navbar.jpg)">
 
