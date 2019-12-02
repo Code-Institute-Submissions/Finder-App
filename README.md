@@ -36,6 +36,10 @@ three buttons below the search area pointing out the three searching categories.
 
 ![SearchBar](assets/imgs/searchBar.jpg)
 
+## Results
+
+![SearchBar](assets/imgs/map&results1.jpg)
+
 
 
 
