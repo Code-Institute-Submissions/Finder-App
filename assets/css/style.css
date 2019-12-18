@@ -498,12 +498,16 @@ nav.active ul li a
 #mapContainer {
     min-height: 300px;
     margin-top: 20px;
+    margin-bottom: auto;
 }
  
 #map {
    
     border: 10px solid black;
     height: 100%;
+    min-height: 200px;
+    margin-left: auto;
+    
 }
  
 #about{
@@ -532,10 +536,19 @@ nav.active ul li a
     width: 100%;
  
 }
+
+@media (max-width: 580px)
+{
+    #listing {
+        margin-top: 20px;
+    }
+}
  
 #listing {
     width: auto;
     overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
     background-color: silver;
     color: #1a1a1a;

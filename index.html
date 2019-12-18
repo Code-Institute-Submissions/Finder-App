@@ -3,7 +3,7 @@
 <head>
     <title>Finder App</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -20,9 +20,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="assets/js/script.js"></script>
 </head>
-
- </head>
-     <body>
+    <body>
         <header>
             <a href="#" class="logo"> Finder App </a>
             <div class="menu-toggle"></div>
@@ -95,7 +93,7 @@
                                 </div>
                                 <br>
                                 <input class="form-control main-input has-search" id="autocomplete" type="text"
-                                    aria-label="Search" id="pac-input" placeholder="Enter City Name">
+                                    aria-label="Search" placeholder="Enter City Name">
                                 <div class="row">
                                     <div class="col-sm"></div>
                                     <div class="col-sm">
@@ -140,22 +138,19 @@
                         </div>
                     </div>
                 </div>
-   
-</div>
-            <div class="container">
+           <div class="container">
             <div class="row" id="mapContainer">
                 <div class="col-sm-8">
                     <div id="map"></div>
                 </div>
                 <div class="col-sm-4" id="listing">
                     <table id="resultsTable" class="container results-container">
-                        <h2 class="resultslist text-center"> Results </h2>
-                        <tbody id="results"><a href="#map"></a></tbody>
+                        <tbody id="results"></tbody>
                     </table>
                 </div>
             </div>
         </div>
-        <div class="container" id="about">
+       <div class="container" id="about">
             <div class="row">
                 <div class="col-sm">
                     <h1>About Finder App</h1>
@@ -173,11 +168,11 @@
             </div>
         </div>
             <div id="copy">
-                &copy 2019 by Finder App LTD,All Rights Reserved.
+                &copy;2019 by Finder App LTD,All Rights Reserved.
             </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
         
-        <script type="text/javascript"
+        <script 
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPq0xTMwbd1UQ2BgUqJU5verK_FCUm47A&libraries=places&callback=initMap"
             async defer></script>
          <script
