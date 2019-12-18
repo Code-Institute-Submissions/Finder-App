@@ -28,13 +28,17 @@ search card which contains two fields, In first field user can put the country n
 there is an option to select ALL countries,In the second field user need to put the desired city name where they want to travell,
 three buttons below the search area pointing out the three searching categories.
 
-![Nave Bar](assets/imgs/navbar.jpg)
+## NavBar
 
+![Navebar](assets/imgs/navbar.jpg)
 
+## Search Bar
 
+![SearchBar](assets/imgs/searchBar.jpg)
 
-## Demo
+## Results
 
+![SearchBar](assets/imgs/map&results1.jpg)
 
 ## Technologies Used
 
@@ -49,8 +53,6 @@ three buttons below the search area pointing out the three searching categories.
 
 ## Testing
 I have tested that site through developer tools and checked on all devices provided on the google chrome dev tools for it's responsiveness.
-
-Tested project on different devices through google devtools.
 
 ## Deployment
 
