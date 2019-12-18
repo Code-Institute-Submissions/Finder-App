@@ -43,7 +43,7 @@ three buttons below the search area pointing out the three searching categories.
 ## Technologies Used
 
 * HTML 5 This project uses HTML 5, CSS 3, and JavaScript programming languages.
-* CSS 3 ** The project uses JQuery to simplify DOM manipulation.
+* CSS 3 The project uses JQuery to simplify DOM manipulation.
 * JavaScript
 * Bootstrap (3.4.1)
 * Font Awesome (v4.7.0)
@@ -52,15 +52,29 @@ three buttons below the search area pointing out the three searching categories.
 * Google Fonts
 
 ## Testing
-I have tested that site through developer tools and checked on all devices provided on the google chrome dev tools for it's responsiveness.
+I have tested that site through developer tools and checked on all devices provided on the google chrome dev tools for it's responsiveness and used W3C Code validator for testing all HTML code.
 
 ## Deployment
 
 The site was built using Cloud's IDE, added, commited and pushed to GitHub using the terminal. A live version of the site is hosted on GitHub pages.
+Deployment and source control was entirely done via GitHub. My repository can be found here:
+https://github.com/Waseem1978?tab=repositories
+
+The live site can be found here:
+https://waseem1978.github.io/Finder-App
 
 ## Credits
+* Youtube For bit of help with the navbar and the logos.
+* JavaScript Code snippets used for Maps, markers and clearing the markers from Google Maps and Google Places API website.
+* Google Developer Tools.
+* HTML for forms, tables used were obtained from bootstrap libraries website.
+
+
+#  MEDIA
+The image used on this project is obtained through a simple Google search and screen shot of the project results are processed through Microsoft paint.
 
 ## Acknowledgements
-
+A huge thanks to Tim Nelson for his time, suggestions, and constructive feedback for this project!
+Also i am very thankful to tutor support for helping me out.
 
 

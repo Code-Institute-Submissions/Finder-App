@@ -73,7 +73,7 @@ nav ul li a:hover
 {
     background: blue;
     color: #fff;
-    transition: 0.5;
+    transition: .5;
 }
  
 @media (max-width: 1200px)
