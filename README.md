@@ -70,7 +70,7 @@ https://waseem1978.github.io/Finder-App
 * HTML for forms, tables used were obtained from bootstrap libraries website.
 
 
-#  MEDIA
+##  Media
 The image used on this project is obtained through a simple Google search and screen shot of the project results are processed through Microsoft paint.
 
 ## Acknowledgements
